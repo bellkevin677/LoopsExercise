@@ -47,3 +47,11 @@ for (word of quote){
     console.log(word);
 }
 
+let fullQuote = "";
+for (i = 0; i< quote.length; i++){
+    fullQuote += quote[i];
+    if (i < quote.length - 1){
+        fullQuote += " ";
+    }
+}
+console.log(fullQuote);
